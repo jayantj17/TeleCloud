@@ -1,0 +1,37 @@
+{
+  "name": "cloudfetch",
+  "version": "1.0.3",
+  "description": "A versatile Telegram bot: download files from URLs, monitor progress, cancel downloads, access server stats, explore and delete files, and generate direct content URLs.",
+  "unpkg": "install.sh",
+  "bin": {
+    "cloudfetch": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besoeasy/cloudfetch.git"
+  },
+  "keywords": [
+    "cloud",
+    "downloader",
+    "aria2",
+    "torrent",
+    "download"
+  ],
+  "author": "besoeasy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/besoeasy/cloudfetch/issues"
+  },
+  "homepage": "https://github.com/besoeasy/cloudfetch#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "ftp-srv": "^4.6.2",
+    "http": "^0.0.1-security",
+    "serve-handler": "^6.1.5",
+    "telegraf": "^4.12.2"
+  }
+}
